@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+$base-color: white;
+$secondary-color: #5F5F5F;
+$plaque-background: #262626;
+$plaque-color: #6B6B6B;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        div {
+            max-width: 640px;
+        }
+
+        .info {
+            @extend .roboto-flex-semibold;
+
+            .main {
+                h1 {
+                    @extend .roboto-mono;
+                    font-size: 1.5rem;
+                    margin-bottom: 4px;
+                }
+
+                p {
+                    color: $secondary-color;
+                    font-size: 1.5rem;
+
+                }
+
+                margin-bottom: 1rem;
+            }
+
+            .secondary {
+                display: flex;
+                flex-direction: column;
+                gap: 0.75rem;
+
+                p {
+                    color: $secondary-color;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .project {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+
+            .plaques {
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
+                @extend .roboto-flex-semibold;
+
+                .plaque {
+                    padding: 0.75rem;
+                    background-color: $plaque-background;
+                    color: $plaque-color;
+
+                    &-main {
+                        padding: 0.75rem;
+                        background-color: $base-color;
+                        color: $secondary-color;
+                    }
+
+                    &-hollow {
+                        padding: 0.75rem;
+                        border-radius: 0.5rem;
+                        background: none;
+                        color: $plaque-color;
+                        -webkit-box-shadow: inset 0 0 0 4px $plaque-background;
+                        -moz-box-shadow: inset 0 0 0 4px $plaque-background;
+                        box-shadow: inset 0 0 0 4px $plaque-background;
+                    }
+                }
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                span {
+                    color: $secondary-color;
+                }
+
+                @extend .roboto-flex;
+                font-size: 1.5rem;
+
+                h2 {
+                    @extend .roboto-mono;
+                    font-size: 1.5rem;
+                    font-weight: 40;
+                }
+
+                p {
+                    font-size: 1.25rem;
+                }
+
+                a {
+                    font-size: 1.25rem;
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}
+
+.roboto-flex {
+    font-family: "Roboto Flex", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+}
+
+.roboto-flex-semibold {
+    @extend .roboto-flex;
+    font-weight: 600;
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #141414;
+    color: $base-color;
+    padding: 3rem;
+}
+
+.copyright {
+    margin-top: 2.5rem;
+    width: 100%;
+    text-align: center;
+    color: $secondary-color;
+    font-size: 0.75rem;
+}
