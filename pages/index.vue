@@ -48,7 +48,7 @@
                     <p class="plaque">React</p>
                     <p class="plaque">Vite</p>
                     <p class="plaque">React Draggable</p>
-                    <p class="plaque">Django</p>
+                    <p class="plaque">FastAPI</p>
                 </div>
                 <div class="info">
                     <h2>casecalc</h2>
