@@ -18,28 +18,13 @@
             </div>
             <div class="project">
                 <div class="plaques">
-                    <p class="plaque-main">present</p>
-                    <p class="plaque">Nuxt (Vue)</p>
-                    <p class="plaque">Pinia</p>
-                    <p class="plaque">FastAPI</p>
-                    <p class="plaque">Kinde</p>
-                    <p class="plaque">i18n</p>
-                </div>
-                <div class="info">
-                    <h2>crohntrack.</h2>
-                    <p>Easily monitor your Crohn’s disease flow with crohntrack - an easy to use, user-oriented webapp. <span>(intended for use on mobile)</span></p>
-                    <a href="https://crohntrack.ivlev.xyz">take a look (work in progress)</a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="plaques">
                     <p class="plaque-main">feb 2024</p>
                     <p class="plaque">aiogram</p>
                 </div>
                 <div class="info">
                     <h2>valentinka</h2>
                     <p>A telegram-bot that allows people to send anonymous messages to each other and reply to them. Was made specifically for Valentine’s Day.</p>
-                    <a href="https://t.me/valentiiinkabot">take a look</a>
+                    <a href="https://github.com/sanityhazard/valentinka">take a look</a>
                 </div>
             </div>
             <div class="project">
@@ -52,21 +37,9 @@
                 </div>
                 <div class="info">
                     <h2>casecalc</h2>
-                    <p>A case* simulator website. Each case can be configured, simulated, exported or saved for later use. Has to be self-hosted for everything to be saved.</p>
-                    <a href="https://casecalc.ivlev.xyz">take a look (does not allow persistence for security reasons)</a>
+                    <p>A case* simulator website. Each case can be configured, simulated, exported or saved for later use. Has to be self-hosted for everything to be saved.<span>Neither intended nor optimized for mobile, since it was only intended for personal use.</span></p>
+                    <a href="https://github.com/sanityhazard/casecalc">take a look (does not allow persistence for security reasons)</a>
                     <p><span>*case - in video games, like a lottery but with in-game item-based prizes</span></p>
-                </div>
-            </div>
-            <div class="project">
-                <div class="plaques">
-                    <p class="plaque-main">jan 2024</p>
-                    <p class="plaque-hollow">joke project</p>
-                    <p class="plaque">aiogram</p>
-                </div>
-                <div class="info">
-                    <h2>tradertypebot</h2>
-                    <p>An inline telegram bot that randomly selects a number from 1 to 100 and based on it, determines what category of crypto/stock market traders a person belongs in. Was made as a joke. Should not be mistaken as financial advice. Although the responses may be offensive, I do not intend to offend anyone. Has Russian language support only! <span>Since it's an inline bot, its username should be entered in a message field. Then, a button will appear</span></p>
-                    <a href="https://t.me/trader_type_bot">take a look</a>
                 </div>
             </div>
             <div class="project">
@@ -79,7 +52,7 @@
                 <div class="info">
                     <h2>taste</h2>
                     <p>A website that makes searching for a movie more fun, since it allows its users to swipe left or right depending on whether they would want to watch a movie or not - like Tinder. Has an account system that saves liked movies.</p>
-                    <a href="https://taste.ivlev.xyz">take a look</a>
+                    <a href="https://github.com/sanityhazard/taste">take a look</a>
                 </div>
             </div>
             <div class="project">
@@ -101,7 +74,7 @@
                 <div class="info">
                     <h2>dst crafts</h2>
                     <p>A discord bot that allows people to look for all Don’t Starve Together (videogame) recipes (not including mods) without leaving discord.</p>
-                    <a href="https://github.com/sanityhazard/DST_crafts">take a look (github only)</a>
+                    <a href="https://github.com/sanityhazard/DST_crafts">take a look</a>
                 </div>
             </div>
             <div class="copyright">© 2025 Ivlev Egor</div>
