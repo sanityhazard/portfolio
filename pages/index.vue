@@ -38,7 +38,7 @@
                 <div class="info">
                     <h2>casecalc</h2>
                     <p>A case* simulator website. Each case can be configured, simulated, exported or saved for later use. Has to be self-hosted for everything to be saved.<span>Neither intended nor optimized for mobile, since it was only intended for personal use.</span></p>
-                    <a href="https://github.com/sanityhazard/casecalc">take a look (does not allow persistence for security reasons)</a>
+                    <a href="https://github.com/sanityhazard/casecalc">take a look</a>
                     <p><span>*case - in video games, like a lottery but with in-game item-based prizes</span></p>
                 </div>
             </div>
